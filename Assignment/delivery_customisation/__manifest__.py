@@ -4,9 +4,8 @@
     'category': 'Sales',
     'summary': 'Custom module for delivery customization',
     'author': 'Your Name',
-    'depends': ['base'],
+    'depends': ['base','delivery'],
     'data': [
-        'views/delivery_customization.xml',
     ],
     'installable': True,
 }

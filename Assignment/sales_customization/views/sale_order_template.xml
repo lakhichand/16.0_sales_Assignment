@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="report_sale_order_document_custom" inherit_id="sale.report_saleorder_document">
-        <xpath expr="//div[@class='page']" position="replace">
+        <!-- <xpath expr="//div[@class='page']" position="replace"> -->
             
             <div class="page">
                 <h1>Custom Sales Order Template</h1>
                 <p>This is a custom sales order template.</p>
             </div>
            
-        </xpath>
+        <!-- </xpath> -->
     </template>
 </odoo>
